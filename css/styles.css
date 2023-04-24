@@ -1,0 +1,105 @@
+/* 
+font-family: 'Racing Sans One', cursive;
+font-family: 'Roboto', sans-serif;
+ */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header */
+.header {
+  background-image: url(../images/mountain.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 45%;
+
+  background-color: rgb(207, 0, 0);
+  text-align: center;
+}
+
+.header-cover {
+  display: flex;
+}
+
+.header-logo {
+  display: inline-block;
+
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Racing Sans One", cursive;
+
+  color: #ff0000;
+}
+
+.header-nav {
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-item:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.nav-link {
+  padding: 24px 2px;
+
+  color: #ff0000;
+}
+
+.header-address {
+}
+
+.address-list {
+}
+
+.address-item {
+}
+
+.address-link {
+  color: #fff;
+}
